@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Potter';
+    src: local('harryp'), local('harryp'),
+        url('harryp.ttf') format('ttf');
+}
+
+.Potter{
+    font-family: 'Potter';
+}

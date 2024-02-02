@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="pendu.css">
+    <link rel="stylesheet" href="font/style.css">
+    <script src="pendu.js" defer></script>
+    <title>Jeu du Pendu</title>
+</head>
+<body>
+    <nav>
+        <nav class="navbar bg-success-subtle">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="image/Skull.png" alt="Bootstrap" width="50" height="40"> Le Pendu
+            </a>
+            </div>
+        </nav>
+    </nav>
+    <div class="gif">
+    <img src="image/47354_0863f.gif" alt="pendu">
+</div>
+    <h1 class="text-center mt-2 Potter">Bienvenue sur le jeu du pendu</h1>
+    <p id="categorie" class="text-center mt-4 cat Potter"></p>
+    <div class="center">
+    <div id="pendu"></div>
+    <p id="motAffiche" class="mt-4"></p>
+    </div>
+    <div class="flex mb-5">
+    <p id="lettresUtilisees" class="me-4"></p>
+    <input class="me-4" type="text" id="lettreInput" maxlength="1">
+    <button id="boutonIndice" class="btn btn-info me-4" onclick="donnerIndice()">Indice</button>
+    <button class="me-4 btn btn-danger" type="submit" onclick="devinerLettre()">Devinez la lettre</button>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
